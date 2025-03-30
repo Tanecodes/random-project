@@ -59,8 +59,10 @@ function animateBall() {
   if (ball.y + ball.radius > canvas.height || ball.y - ball.radius < 0) {
     ball.ySpeed *= -1;
   };
-
-  requestAnimationFrame(animateBall);
+ 
+   requestAnimationFrame(animateBall); // this code means "please animate me?"
 }
 
-animateBall();
+animateBall(); // calling the function for end results :)
+
+// still needs some work will start polishing it tomorrow.
