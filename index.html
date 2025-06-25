@@ -3,11 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ball animation</title>
-  <link rel="stylesheet" href="script.css">
+  <title>Javascipt logic project</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <canvas id="ball-canvas"></canvas>
+  
+  <h1>Javascipt Logic Trainer</h1>
+  <label for="challenge">Choose a Challenge:</label>
+  <select id="challenge">
+    <option value="evenOdd">Even or Odd</option>
+    <option value="reverseString">Reverse String</option>
+    <option value="factorial">Factorial</option>
+  </select>
+
+  <br>
+  <br>
+
+  <label for="userInput">Enter your input:</label>
+  <input type="text" id="userInput">
+
+  <br>
+  <br>
+  
+  <button id="runBtn">Run</button>
+  <p id="result"></p>
 
   <script src="main.js"></script>
 </body>
