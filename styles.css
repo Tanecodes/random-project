@@ -1,13 +1,33 @@
-
-body, html {
+* {
   margin: 0;
   padding: 0;
-  background-color: grey;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+  color: whitesmoke;
+  outline: 1px solid red;
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
   display: flex;
   flex-direction: column;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  font-family: "Manufacturing Consent", sans-serif;
+  font-size: 7rem;
+  height: fit-content;
+}
+
+nav, ul {
+  display: flex;
   justify-content: center;
-  align-items: center;
 }
